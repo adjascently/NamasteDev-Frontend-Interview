@@ -1,18 +1,18 @@
-# Largest Number Formation
 
-## Problem
+
+Problem
 
 Write a function that arranges a list of non-negative integers to form the largest possible number. Given an array of integers, rearrange them such that when concatenated, they produce the maximum possible numeric value.
 
-## Input
+Input
 
 - An array `arr` of non-negative integers.
 
-## Output
+Output
 
 - A string representing the largest number that can be formed by arranging the given integers.
 
-## Constraints & Edge Cases
+Constraints & Edge Cases
 
 - All integers in the array are non-negative.
 - The resulting number may be very large, so return it as a string.
@@ -23,7 +23,7 @@ Write a function that arranges a list of non-negative integers to form the large
     "330" > "303"
     So `"3"` should come before `"30"`.
 
-## Code Solution
+Code Solution
 
 
 function formLargestNumber(arr) { // Function that returns the largest number that can be formed by arranging integers
