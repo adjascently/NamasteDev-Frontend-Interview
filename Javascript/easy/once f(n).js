@@ -1,17 +1,20 @@
-Implement the function once (fn) which accepts another function fn and returns a new function.
-This new function allows fn to be executed only once, no matter how many times it is called.
-On the first call, fn should be executed normally and its result returned.
-On subsequent calls, return the result from the first execution, without re-invoking fn.
+Implement the function once (fn) which accepts another function fn and returns a new function. This new function allows fn to be executed only once, no matter how many times it is called. On the first call, fn should be executed normally and its result returned. On subsequent calls, return the result from the first execution, without re-invoking fn.
 
+
+  
 Input
 • A function fn (could be synchronous or asynchronous)
 • The returned function can take any number of arguments
+
+
 
 Output
 • A function that:
 Calls fn only once.
 Returns the first result on all calls after the first.
 
+
+  
 Edge Cases
 • Function with no arguments:
 fn might be called without any arguments. Ensure your implementation still works.
@@ -29,6 +32,8 @@ For async fn, if multiple calls are made before the first Promise resolves, all 
 Your implementation should preserve the original this context when invoking fn.
 
 
+
+  
 Code
 function once(fn) { 
   let called = false; 
@@ -66,5 +71,8 @@ if (called) return result;
     }
   }
 }
+
+
+
 
 module.exports = once; // Export the function
