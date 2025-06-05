@@ -1,13 +1,14 @@
-Write a function that checks whether two input strings are anagrams of each other. An anagram is a word formed by rearranging the letters of another word, using all original letters exactly once.
+//Write a function that checks whether two input strings are anagrams of each other. An anagram is a word formed by rearranging the letters of another word, using all original letters exactly once.
 
 
-Input: Two strings strl and str2
+//Input: Two strings strl and str2
 
 
-Output: A boolean value - true if the strings are anagrams, false otherwise.
+//Output: A boolean value - true if the strings are anagrams, false otherwise.
 
 
-Constraints & Edge Cases
+//Constraints & Edge Cases
+
 • The comparison should be case-insensitive.
 • Both strings may contain non-alphabetic characters (optional: ignore them).
 • Empty strings are valid inputs.
